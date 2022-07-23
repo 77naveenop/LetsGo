@@ -1,0 +1,99 @@
+@import "../../base.scss";
+
+
+.home{
+    background-image: url("Bg_home.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:700px;
+}
+.home_heading{
+    color: rgba(194, 142, 12, 0.734);
+    text-align: center;
+    padding-top: 120px;
+    justify-content: center;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.home_tagline{
+    text-align: center;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top:15px;
+    color: rgba(194, 142, 12, 0.734);
+}
+
+
+// Mountains-home
+
+.home_mountains{
+    border: 2px solid black;
+    margin-top: 40px;
+    height: auto;
+    margin-bottom: 60px;
+    // padding: 50px;
+}
+.mountains_heading{
+    justify-content: center;
+    text-align: center;
+}
+
+.column1{
+    display: flex;
+}
+.img_mountains{
+    margin: 100px 30px 30px 70px ;
+   height: 20rem;
+}
+.right_para{
+    margin: 220px 30px 30px 250px;
+    font-weight: bolder;
+}
+.img_mountains2{
+    margin-left: 250px;
+}
+
+// Forests
+
+
+.home_forests{
+    border: 2px solid black;
+    margin-top: 40px;
+    height: auto;
+    margin-bottom: 20px;
+    // padding: 50px;
+}
+.forests_heading{
+    justify-content: center;
+    text-align: center;
+}
+.img_forests{
+    margin: 100px 30px 30px 70px ;
+   height: 20rem;
+}
+.img_forests2{
+    margin-left: 150px;
+}
+
+//Pilgrimage
+
+.home_pilgrimages{
+    border: 2px solid black;
+    margin-top: 40px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.pilgrimage_heading{
+    justify-content: center;
+    text-align: center;
+}
+
+.img_pilgrimage{
+    margin: 100px 30px 30px 70px;
+    height: 20rem;
+}
+.img_pilgrimage2{
+    margin-left: 400px;
+}

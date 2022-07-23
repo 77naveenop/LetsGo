@@ -1,0 +1,85 @@
+@import "../../_base.scss";
+
+
+
+
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.575);
+    width: 140px;
+    height: 90vh;
+    transition: transform 0.2s ease-in;
+   
+   
+    &_navlink{
+        color: white;
+        text-decoration: none;
+        // font-weight: bold;
+    
+    &:hover{
+        color: white;
+    }
+
+}
+
+&_logout{
+    color: white;
+}
+
+ 
+    li{
+        display: flex;
+        align-items: center;
+        margin: 1rem;
+        margin-left: 1rem;
+        margin-top: 1.5rem;
+        cursor: pointer;
+       
+    
+    &:hover{
+        color: white;
+        background-color: rgba(194, 142, 12, 0.734);
+        // border: 2px;
+        padding: 3px;
+        border-radius: 10px;
+    }
+  span{
+      margin-left: 1rem;
+  }
+    
+}
+
+ 
+
+
+&.open{
+    transform: translateX(0);
+}
+
+
+}
+
+
+
+
+@media (min-width:$breakpoint-medium){
+    .sidebar{
+           display: none; 
+    }
+}
+@media (min-width:$breakpoint-small){
+    .sidebar{
+           display: none; 
+    }
+}
+
+@media (max-width:$breakpoint-small){
+    .sidebar{
+            transform: translateX(-100%);
+            position: fixed;
+            z-index: 999;
+           
+    }
+}

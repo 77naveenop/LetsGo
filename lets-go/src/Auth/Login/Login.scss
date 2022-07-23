@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital@1&display=swap');
+
+.container{
+    width: 70%;
+    height: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #886AE4;
+    margin-top: 5%;
+    border-radius: 10px;
+    /* font-family: 'Roboto Serif', sans-serif; */
+}
+
+.column{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 40px;
+    border-radius: 10px;
+}
+.col-1{
+    /* background-color:#9275EB; */
+    background-image: linear-gradient(to right,#886AE4,#ac9ae2);
+    width: 50%;
+    padding: 30px;
+    height: 21rem;
+    border-radius: 10px 0 0 10px;
+    
+}
+.col-2{
+   width: 45%;
+}
+.login-head{
+    font-weight: bolder;
+    font-family: 'Roboto Serif', sans-serif;
+}
+.email{
+    margin: 8px 0 15px 0;
+}
+input{
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    height: 18px;
+}
+label{
+    /* font-weight: bold; */
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+.login-btn{
+    margin: 20px 0 0 0;
+ width: 180px;
+ height: 30px;
+ border-radius: 10px;
+ background-color: #3F2A87;
+ color: white;
+ font-family: 'Quicksand', sans-serif;
+ border: none;
+}
+.loginP-img{
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    border-radius: 0 10px 10px 0;
+}
+.login-btn:hover{
+ cursor: pointer;
+}

@@ -1,0 +1,43 @@
+@import "../../../_base.scss";
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=IM+Fell+English+SC&display=swap');
+
+.introduction{
+    // border: 2px solid red;
+    margin: 150px 0 10px 0;
+    height: 30rem;
+    
+
+}
+
+.intro_rows{
+    display: flex;
+    
+}
+
+.intro_row1{
+   
+   
+    height: 26rem;
+    margin: 2rem 0 0 2rem;
+    width: 50%;
+  
+}
+.intro_para{
+    justify-content: center;
+    font-weight: 500;
+    margin-top: 100px;
+    font-family: 'IM Fell English SC', serif;
+    
+}
+
+.intro_row2{
+   
+    width: 50%;
+    height: 30rem;
+    margin-left: 3rem;
+}
+
+.img2 , .img5{
+    margin:15px;
+    border-radius: 50%;
+}
