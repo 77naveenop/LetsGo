@@ -6,10 +6,9 @@
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    background-color: #886AE4;
+    background-color: #228B22;
     margin-top: 5%;
     border-radius: 10px;
-    /* font-family: 'Roboto Serif', sans-serif; */
 }
 
 .column{
@@ -22,7 +21,7 @@
 }
 .col-1{
     /* background-color:#9275EB; */
-    background-image: linear-gradient(to right,#886AE4,#ac9ae2);
+    background-image: linear-gradient(to right,#228B22,#226722);
     width: 50%;
     padding: 30px;
     height: 21rem;
@@ -35,18 +34,20 @@
 .login-head{
     font-weight: bolder;
     font-family: 'Roboto Serif', sans-serif;
+    color: whitesmoke;
 }
 .email{
     margin: 8px 0 15px 0;
 }
 input{
-    width: 100px;
+    width: 70px;
     border-radius: 5px;
     border: none;
     height: 18px;
+    margin-top: 7px;
+    margin-left: 12px;
 }
 label{
-    /* font-weight: bold; */
     color: white;
     font-family: 'Quicksand', sans-serif;
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import "./Login.scss";
-import AV from "../Login/CRM-Avatars.jpg";
+import AV from "../Login/LetsGo.jpg";
 
 const Login = () => {
     return (
@@ -21,7 +21,6 @@ const Login = () => {
                         </div>
                     </div>
                     <button className="login-btn">Login</button>
-                  {/* <div><span>Not A Member?<a href="">Sign-In</a></span></div> */}
                 </div>
                 
                 <div className="col-2">
